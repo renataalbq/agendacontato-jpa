@@ -1,0 +1,275 @@
+[EL Fine]: server: 2022-05-22 13:03:37.981--Thread(Thread[AWT-EventQueue-0,6,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2022-05-22 13:03:38.121--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Endereco] is set to [FIELD].
+[EL Config]: metadata: 2022-05-22 13:03:38.136--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Contato] is set to [FIELD].
+[EL Config]: metadata: 2022-05-22 13:03:38.141--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to one mapping element [field endereco] is being defaulted to: class modelo.Endereco.
+[EL Config]: metadata: 2022-05-22 13:03:38.145--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to many mapping element [field telefones] is being defaulted to: class modelo.Telefone.
+[EL Config]: metadata: 2022-05-22 13:03:38.146--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Telefone] is set to [FIELD].
+[EL Config]: metadata: 2022-05-22 13:03:38.146--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to many mapping element [field contatos] is being defaulted to: class modelo.Contato.
+[EL Config]: metadata: 2022-05-22 13:03:38.146--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Endereco] is being defaulted to: Endereco.
+[EL Config]: metadata: 2022-05-22 13:03:38.148--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Endereco] is being defaulted to: ENDERECO.
+[EL Config]: metadata: 2022-05-22 13:03:38.156--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [bairro] is being defaulted to: BAIRRO.
+[EL Config]: metadata: 2022-05-22 13:03:38.156--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [logradouro] is being defaulted to: LOGRADOURO.
+[EL Config]: metadata: 2022-05-22 13:03:38.159--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2022-05-22 13:03:38.159--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2022-05-22 13:03:38.16--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Contato] is being defaulted to: Contato.
+[EL Config]: metadata: 2022-05-22 13:03:38.16--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Contato] is being defaulted to: CONTATO.
+[EL Config]: metadata: 2022-05-22 13:03:38.16--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nascimento] is being defaulted to: NASCIMENTO.
+[EL Config]: metadata: 2022-05-22 13:03:38.16--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2022-05-22 13:03:38.161--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2022-05-22 13:03:38.161--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2022-05-22 13:03:38.161--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Telefone] is being defaulted to: Telefone.
+[EL Config]: metadata: 2022-05-22 13:03:38.161--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Telefone] is being defaulted to: TELEFONE.
+[EL Config]: metadata: 2022-05-22 13:03:38.161--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [numero] is being defaulted to: NUMERO.
+[EL Config]: metadata: 2022-05-22 13:03:38.161--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2022-05-22 13:03:38.162--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2022-05-22 13:03:38.168--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field endereco] is being defaulted to: ID.
+[EL Config]: metadata: 2022-05-22 13:03:38.168--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The foreign key column name for the mapping element [endereco] is being defaulted to: ENDERECO_ID.
+[EL Warning]: metadata: 2022-05-22 13:03:38.177--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--Element [field contatos] within entity class [class modelo.Telefone] uses a collection type [class java.util.ArrayList] when the JPA specification only supports java.util.Collection, java.util.Set, java.util.List, or java.util.Map.  This type is supported with eager loading; using lazy loading with this collection type requires additional configuration and an IndirectContainer implementation that extends [class java.util.ArrayList] or setting the mapping to use basic indirection and the type to be ValueholderInterface.
+[EL Config]: metadata: 2022-05-22 13:03:38.177--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The join table name for the many to many mapping [field contatos] is being defaulted to: TELEFONE_CONTATO.
+[EL Config]: metadata: 2022-05-22 13:03:38.178--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The source primary key column name for the many to many mapping [field contatos] is being defaulted to: ID.
+[EL Config]: metadata: 2022-05-22 13:03:38.178--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The source foreign key column name for the many to many mapping [contatos] is being defaulted to: telefones_ID.
+[EL Config]: metadata: 2022-05-22 13:03:38.178--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The target primary key column name for the many to many mapping [field contatos] is being defaulted to: ID.
+[EL Config]: metadata: 2022-05-22 13:03:38.178--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--The target foreign key column name for the many to many mapping [contatos] is being defaulted to: contatos_ID.
+[EL Warning]: metadata: 2022-05-22 13:03:38.178--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--Element [field telefones] within entity class [class modelo.Contato] uses a collection type [class java.util.ArrayList] when the JPA specification only supports java.util.Collection, java.util.Set, java.util.List, or java.util.Map.  This type is supported with eager loading; using lazy loading with this collection type requires additional configuration and an IndirectContainer implementation that extends [class java.util.ArrayList] or setting the mapping to use basic indirection and the type to be ValueholderInterface.
+[EL Info]: 2022-05-22 13:03:38.244--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--EclipseLink, version: Eclipse Persistence Services - 3.1.0-M1.v202108080909
+[EL Fine]: connection: 2022-05-22 13:03:38.466--Thread(Thread[AWT-EventQueue-0,6,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Fine]: connection: 2022-05-22 13:03:38.475--ServerSession(2051583761)--Connection(44470361)--Thread(Thread[AWT-EventQueue-0,6,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/agendacontato"
+))
+[EL Config]: connection: 2022-05-22 13:03:38.519--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--Connected: jdbc:postgresql://localhost:5432/agendacontato
+	User: postgres
+	Database: PostgreSQL  Version: 14.0
+	Driver: PostgreSQL JDBC Driver  Version: 42.3.3
+[EL Warning]: metadata: 2022-05-22 13:03:38.527--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [endereco] for the entity class [class modelo.Contato] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2022-05-22 13:03:38.527--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [telefones] for the entity class [class modelo.Contato] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2022-05-22 13:03:38.528--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [contatos] for the entity class [class modelo.Telefone] since weaving was not enabled or did not occur.
+[EL Fine]: connection: 2022-05-22 13:03:38.551--ServerSession(2051583761)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/C:/Users/renat/OneDrive/Área de Trabalho/novo-wrkspc/AgendaContatoJPA/target/classes/_eclipselink-postgresql_url=jdbc:postgresql://localhost:5432/agendacontato login successful
+[EL Fine]: sql: 2022-05-22 13:03:38.958--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:03:38.963--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:03:38.966--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:03:38.968--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:03:38.97--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:03:38.971--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:03:38.973--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:03:38.974--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:03:38.975--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [4]
+[EL Fine]: sql: 2022-05-22 13:03:38.976--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:03:38.977--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:03:38.978--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:03:38.979--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:03:38.98--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [8]
+[EL Fine]: sql: 2022-05-22 13:03:41.972--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NUMERO, VERSAO FROM TELEFONE ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:05:55.878--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO WHERE (NOME = ?)
+	bind => [renata]
+[EL Fine]: sql: 2022-05-22 13:05:55.885--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (LOGRADOURO = ?)
+	bind => [av campos sales]
+[EL Fine]: sql: 2022-05-22 13:05:55.888--ClientSession(218411100)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO ENDERECO (BAIRRO, LOGRADOURO, VERSAO) VALUES (?, ?, ?)
+	bind => [bessa, av campos sales, 1]
+[EL Fine]: sql: 2022-05-22 13:05:55.89--ClientSession(218411100)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: sql: 2022-05-22 13:05:55.891--ClientSession(218411100)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO CONTATO (NASCIMENTO, NOME, VERSAO, ENDERECO_ID) VALUES (?, ?, ?, ?)
+	bind => [1998-10-09, renata, 1, 5]
+[EL Fine]: sql: 2022-05-22 13:05:55.892--ClientSession(218411100)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: sql: 2022-05-22 13:05:55.899--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:05:55.9--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:05:55.901--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:05:55.902--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:05:55.903--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:05:55.904--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:05:55.904--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:05:55.905--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:05:55.906--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [4]
+[EL Fine]: sql: 2022-05-22 13:05:55.907--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:05:55.908--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:05:55.908--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:05:55.909--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:05:55.909--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [8]
+[EL Fine]: sql: 2022-05-22 13:05:55.91--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:05:55.911--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:06:02.639--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:07:35.963--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO WHERE (NOME = ?)
+	bind => [renata]
+[EL Fine]: sql: 2022-05-22 13:07:35.965--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NUMERO, VERSAO FROM TELEFONE WHERE (NUMERO = ?)
+	bind => [99911111]
+[EL Fine]: sql: 2022-05-22 13:07:35.97--ClientSession(148462363)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--UPDATE TELEFONE SET VERSAO = ? WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [2, 2, 1]
+[EL Fine]: sql: 2022-05-22 13:07:35.973--ClientSession(148462363)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO TELEFONE_CONTATO (contatos_ID, telefones_ID) VALUES (?, ?)
+	bind => [6, 2]
+[EL Fine]: sql: 2022-05-22 13:07:35.975--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NUMERO, VERSAO FROM TELEFONE ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:07:35.977--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:07:35.977--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:07:35.978--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:07:35.979--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:07:35.98--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:07:35.98--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:07:35.981--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:07:35.983--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [4]
+[EL Fine]: sql: 2022-05-22 13:07:35.983--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:07:35.984--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:07:35.985--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:07:35.986--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:07:35.987--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [8]
+[EL Fine]: sql: 2022-05-22 13:07:35.988--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:07:35.989--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:14.966--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO WHERE (NOME = ?)
+	bind => [renata]
+[EL Fine]: sql: 2022-05-22 13:08:14.968--ClientSession(1857121349)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--UPDATE TELEFONE SET VERSAO = ? WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [3, 2, 2]
+[EL Fine]: sql: 2022-05-22 13:08:14.969--ClientSession(1857121349)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM TELEFONE_CONTATO WHERE ((contatos_ID = ?) AND (telefones_ID = ?))
+	bind => [6, 2]
+[EL Fine]: sql: 2022-05-22 13:08:14.975--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NUMERO, VERSAO FROM TELEFONE ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:08:14.975--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:14.976--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:14.976--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:14.977--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:14.977--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:14.978--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [4]
+[EL Fine]: sql: 2022-05-22 13:08:14.98--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:14.98--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:14.98--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:08:14.98--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:08:14.981--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [8]
+[EL Fine]: sql: 2022-05-22 13:08:14.981--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:14.982--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:18.398--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:08:18.399--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:08:18.4--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:08:38.426--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO WHERE (NOME = ?)
+	bind => [renata]
+[EL Fine]: sql: 2022-05-22 13:08:38.428--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NUMERO, VERSAO FROM TELEFONE WHERE (NUMERO = ?)
+	bind => [99911111]
+[EL Fine]: sql: 2022-05-22 13:08:38.429--ClientSession(1463062272)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--UPDATE TELEFONE SET VERSAO = ? WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [4, 2, 3]
+[EL Fine]: sql: 2022-05-22 13:08:38.43--ClientSession(1463062272)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO TELEFONE_CONTATO (contatos_ID, telefones_ID) VALUES (?, ?)
+	bind => [6, 2]
+[EL Fine]: sql: 2022-05-22 13:08:38.432--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NUMERO, VERSAO FROM TELEFONE ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:08:38.433--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:38.433--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:38.434--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:38.434--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:38.435--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:38.436--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:08:38.436--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:08:38.437--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [4]
+[EL Fine]: sql: 2022-05-22 13:08:38.438--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:38.438--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:38.439--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:08:38.44--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:08:38.44--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [8]
+[EL Fine]: sql: 2022-05-22 13:08:38.441--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:38.442--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:41.646--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:08:48.055--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO WHERE (NOME = ?)
+	bind => [renata]
+[EL Fine]: sql: 2022-05-22 13:08:48.057--ClientSession(977687780)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM TELEFONE_CONTATO WHERE (contatos_ID = ?)
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:08:48.057--ClientSession(977687780)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--UPDATE TELEFONE SET VERSAO = ? WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [5, 2, 4]
+[EL Fine]: sql: 2022-05-22 13:08:48.058--ClientSession(977687780)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM TELEFONE_CONTATO WHERE ((contatos_ID = ?) AND (telefones_ID = ?))
+	bind => [6, 2]
+[EL Fine]: sql: 2022-05-22 13:08:48.059--ClientSession(977687780)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM CONTATO WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [6, 1]
+[EL Fine]: sql: 2022-05-22 13:08:48.064--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:08:48.065--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:48.066--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:48.066--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:48.067--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [1]
+[EL Fine]: sql: 2022-05-22 13:08:48.068--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:48.069--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:48.07--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [2]
+[EL Fine]: sql: 2022-05-22 13:08:48.071--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [4]
+[EL Fine]: sql: 2022-05-22 13:08:48.072--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 13:08:48.072--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [6]
+[EL Fine]: sql: 2022-05-22 13:08:48.073--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, BAIRRO, LOGRADOURO, VERSAO FROM ENDERECO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:48.074--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NUMERO, t1.VERSAO FROM TELEFONE_CONTATO t0, TELEFONE t1 WHERE ((t0.contatos_ID = ?) AND (t1.ID = t0.telefones_ID))
+	bind => [3]
+[EL Fine]: sql: 2022-05-22 13:08:48.074--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.NASCIMENTO, t1.NOME, t1.VERSAO, t1.ENDERECO_ID FROM TELEFONE_CONTATO t0, CONTATO t1 WHERE ((t0.telefones_ID = ?) AND (t1.ID = t0.contatos_ID))
+	bind => [8]
+[EL Fine]: sql: 2022-05-22 13:08:49.086--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:08:49.574--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NASCIMENTO, NOME, VERSAO, ENDERECO_ID FROM CONTATO ORDER BY ID
+[EL Fine]: sql: 2022-05-22 13:08:51.15--ServerSession(2051583761)--Connection(299675643)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, NUMERO, VERSAO FROM TELEFONE ORDER BY ID

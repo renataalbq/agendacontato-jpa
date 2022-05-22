@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+	
+	<persistence-unit name="eclipselink-postgresql">
+		<description>usa provedor Eclipselink com postgresql</description>
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<shared-cache-mode>NONE</shared-cache-mode>
+		<properties>
+			<property name="jakarta.persistence.jdbc.driver" 	value="org.postgresql.Driver" />
+			<property name="jakarta.persistence.jdbc.url"		value="jdbc:postgresql://localhost:5432/banco" />
+			<property name="jakarta.persistence.jdbc.user"		value="postgres" />
+			<property name="jakarta.persistence.jdbc.password"	value="jb1394" />
+			<property name="jakarta.persistence.schema-generation.database.action"	value="create" />
+			<property name="jakarta.persistence.schema-generation.scripts.action"	value="create" />
+			<property name="jakarta.persistence.schema-generation.scripts.create-target"	value="ddl.sql" />
+			<property name="eclipselink.logging.level" value="fine" />
+			<property name="eclipselink.logging.file" value="saida.log" />
+		</properties>
+	</persistence-unit>
+	
+	<persistence-unit name="eclipselink-mysql">
+		<description>usa provedor Eclipselink com mysql</description>
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="jakarta.persistence.jdbc.driver"	value="com.mysql.cj.jdbc.Driver" />
+		    <property name="jakarta.persistence.jdbc.url"  		value="jdbc:mysql://localhost:3306/banco" />
+			<property name="jakarta.persistence.jdbc.user" 		value="root" />
+			<property name="jakarta.persistence.jdbc.password" 	value="" />
+			<property name="jakarta.persistence.schema-generation.database.action"	value="create" />
+			<property name="jakarta.persistence.schema-generation.scripts.action"	value="create" />
+			<property name="jakarta.persistence.schema-generation.scripts.create-target"	value="ddl.sql" />
+			<property name="eclipselink.logging.level" value="fine" />
+			<property name="eclipselink.logging.file" value="saida.log" />
+		</properties>
+	</persistence-unit>
+	
+	<persistence-unit name="hibernate-postgresql">
+		<description>usa provedor Hibernate com postgresql</description>
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="jakarta.persistence.jdbc.driver" 	value="org.postgresql.Driver" />
+			<property name="jakarta.persistence.jdbc.url"		value="jdbc:postgresql://localhost:5432/banco" />
+			<property name="jakarta.persistence.jdbc.user"		value="postgres" />
+			<property name="jakarta.persistence.jdbc.password"	value="jb1394" />
+			<property name="hibernate.dialect"   		value="org.hibernate.dialect.PostgreSQLDialect" />
+   			<property name="hibernate.hbm2ddl.auto" 	value="update" />  
+   			<property name="hibernate.generate_statistics" 	value="false" />  
+   			<property name="hibernate.format_sql" 		value="true" />
+   			<property name="hibernate.show_sql" 		value="false" /> 
+			<property name="hibernate.use_sql_comments" value="false" /> 
+		</properties>
+	</persistence-unit>
+	
+	<persistence-unit name="hibernate-mysql">
+		<description>usa provedor Hibernate com mysql</description>
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="jakarta.persistence.jdbc.driver"	value="com.mysql.cj.jdbc.Driver" />
+		    <property name="jakarta.persistence.jdbc.url"  		value="jdbc:mysql://localhost:3306/banco" />
+			<property name="jakarta.persistence.jdbc.user" 		value="root" />
+			<property name="jakarta.persistence.jdbc.password" 	value="" />
+			<property name="hibernate.dialect"			value="org.hibernate.dialect.MySQLDialect" />
+   			<property name="hibernate.hbm2ddl.auto" 	value="update" />  
+   			<property name="hibernate.generate_statistics" 	value="false" />  
+   			<property name="hibernate.format_sql" 		value="true" />
+   			<property name="hibernate.show_sql" 		value="false" /> 
+			<property name="hibernate.use_sql_comments" value="false" /> 
+		</properties>
+	</persistence-unit>
+</persistence>
